@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7E4000120694980004FF05D /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4000020694980004FF05D /* DropDownView.swift */; };
 		A7E4FFED20694910004FF05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4FFEC20694910004FF05D /* AppDelegate.swift */; };
 		A7E4FFEF20694910004FF05D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4FFEE20694910004FF05D /* ViewController.swift */; };
 		A7E4FFF220694910004FF05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E4FFF020694910004FF05D /* Main.storyboard */; };
 		A7E4FFF420694910004FF05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E4FFF320694910004FF05D /* Assets.xcassets */; };
 		A7E4FFF720694910004FF05D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E4FFF520694910004FF05D /* LaunchScreen.storyboard */; };
+		A7E4FFFF2069492F004FF05D /* dropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7E4FFFE2069492F004FF05D /* dropDownView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7E4000020694980004FF05D /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 		A7E4FFE920694910004FF05D /* dropDownView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropDownView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E4FFEC20694910004FF05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7E4FFEE20694910004FF05D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A7E4FFF320694910004FF05D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E4FFF620694910004FF05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7E4FFF820694910004FF05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E4FFFE2069492F004FF05D /* dropDownView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = dropDownView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A7E4FFEC20694910004FF05D /* AppDelegate.swift */,
 				A7E4FFEE20694910004FF05D /* ViewController.swift */,
+				A7E4FFFE2069492F004FF05D /* dropDownView.xib */,
+				A7E4000020694980004FF05D /* DropDownView.swift */,
 				A7E4FFF020694910004FF05D /* Main.storyboard */,
 				A7E4FFF320694910004FF05D /* Assets.xcassets */,
 				A7E4FFF520694910004FF05D /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7E4FFF720694910004FF05D /* LaunchScreen.storyboard in Resources */,
+				A7E4FFFF2069492F004FF05D /* dropDownView.xib in Resources */,
 				A7E4FFF420694910004FF05D /* Assets.xcassets in Resources */,
 				A7E4FFF220694910004FF05D /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				A7E4FFEF20694910004FF05D /* ViewController.swift in Sources */,
 				A7E4FFED20694910004FF05D /* AppDelegate.swift in Sources */,
+				A7E4000120694980004FF05D /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
